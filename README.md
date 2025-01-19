@@ -19,13 +19,14 @@
 3. Install Appwrite CLI
 4. Login with `appwrite login`
 5. Enter `cd backend`
-6. Update the `projectId` in `appwrite.json`
-7. Get an api key on appwrite
-8. Deploy database structure with `appwrite deploy collection`
-9. Deploy database seeds with `sh seed.sh`
-10. Deploy functions with `appwrite deploy function`
-11. Set variables on deployed functions. There is `backend/functions` folder for each function. They all have `README.md` describing what variables they need
-12. Setup `GitHub` OAuth provider
+6. Checkout the README.md in `functions->aggregateVotes`
+7. Get the `projectId` from the appwrite platform, and update it in `appwrite.json`
+8. Get an api key on appwrite
+9. Deploy database structure with `appwrite deploy collection`
+10. Deploy database seeds with `sh seed.sh`
+11. Deploy functions with `appwrite deploy function`
+12. Set variables on deployed functions. There is `backend/functions` folder for each function. They all have `README.md` describing what variables they need
+13. Setup `GitHub` OAuth provider
 
 ## 👀 Setup Client
 
