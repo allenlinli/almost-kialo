@@ -23,10 +23,11 @@
 7. Get the `projectId` from the appwrite platform, and update it in `appwrite.json`
 8. Get an api key on appwrite
 9. Deploy database structure with `appwrite deploy collection`
-10. Deploy database seeds with `sh seed.sh`
-11. Deploy functions with `appwrite deploy function`
-12. Set variables on deployed functions. There is `backend/functions` folder for each function. They all have `README.md` describing what variables they need
-13. Setup `GitHub` OAuth provider
+10. Update the [teamid](https://cloud.appwrite.io/console/project-678d3149002196333a48/overview/keys#integrations) in `seed.sh`
+11. Deploy database seeds with `sh seed.sh`
+12. Deploy functions with `appwrite deploy function`
+13. Set variables on deployed functions. There is `backend/functions` folder for each function. They all have `README.md` describing what variables they need
+14. Setup `GitHub` OAuth provider
 
 ## 👀 Setup Client
 
